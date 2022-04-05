@@ -1,0 +1,66 @@
+#vitrineProduit {
+
+    background-color: whitesmoke;
+    
+    margin-top: 0.5rem;
+    padding: 0.7rem;
+    
+    #groupproduit {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .blockproduit {
+
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+
+            width: 25%;
+            padding-top: 1.2rem;
+            padding-bottom: 0.8rem;
+
+
+            img {
+                width: 90%;
+                align-self: center;
+                border: 0.2rem black solid;
+            }
+
+            .nameArticle {
+                align-self: center;
+                padding-top: 1rem;
+                padding-left: 0.9rem;
+                padding-right: 1rem;
+                font-size: 1.4rem;
+            }
+
+            .endbp {
+
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin-left: 1rem ;
+                margin-right: 1.4rem ;
+
+            .priceArticle {
+
+                font-size: 1.4rem;
+                width: 50%;
+            }
+
+            #btnpanier {
+
+                width: 50%;
+                font-size: 1rem;
+                padding: 0%;
+
+            }
+
+        }}
+
+    }
+
+}

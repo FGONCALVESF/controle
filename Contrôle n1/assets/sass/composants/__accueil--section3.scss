@@ -1,0 +1,44 @@
+#infoProcedure {
+
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 0.7rem;
+    background-color: whitesmoke;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+
+    .uneProcedure {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 25%; 
+        justify-content: center;
+
+        i {
+            font-size: 1.8rem;
+        }
+
+        .textProcedure {
+
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            padding-left: 1.7rem;
+            
+
+            .titleProcedure {
+                font-size: 1.1rem;
+            }
+
+            .paraProcedure {
+                font-size: 0.8rem;
+            }
+        }
+    }
+}

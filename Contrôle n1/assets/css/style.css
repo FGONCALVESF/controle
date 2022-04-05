@@ -1,0 +1,449 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@300&display=swap");
+html {
+  font-size: 62, 5%;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.7;
+}
+
+.container-md {
+  background-color: white;
+  padding: 0%;
+}
+
+#heading {
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  padding-bottom: 0.7rem;
+}
+#heading #headerbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  width: 100%;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+#heading #headerbar #blocklogo, #heading #headerbar #blockform, #heading #headerbar #blockicons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#heading #headerbar #blocklogo {
+  width: 10%;
+}
+#heading #headerbar #blocklogo img {
+  width: 6rem;
+}
+#heading #headerbar #blockform {
+  width: 50%;
+  height: 3.5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  justify-content: space-between;
+  align-content: center;
+}
+#heading #headerbar #blockform select {
+  width: 25%;
+  font-size: 1rem;
+  border-radius: 0%;
+}
+#heading #headerbar #blockform input {
+  width: 67%;
+  font-size: 0.8rem;
+  border-radius: 0%;
+}
+#heading #headerbar #blockform button {
+  width: 8%;
+  text-align: center;
+  border-radius: 0%;
+}
+#heading #headerbar #blockicons {
+  width: 10%;
+  justify-content: space-between;
+  align-content: center;
+  padding-right: 2rem;
+}
+#heading #headerbar #blockicons a {
+  color: black;
+}
+#heading #headerbar #blockicons #paniergroup {
+  position: relative;
+  padding-top: 0.5rem;
+  padding-right: 0.2rem;
+}
+#heading #headerbar #blockicons #paniergroup i {
+  position: absolute;
+  font-size: 1.7rem;
+}
+#heading #headerbar #blockicons #paniergroup #header-panier-count {
+  background-color: antiquewhite;
+  border-radius: 50%;
+  border: black 1px solid;
+  font-size: 0.7rem;
+  width: 1.3rem;
+  height: 1.3rem;
+  text-align: center;
+  position: absolute;
+  margin-left: 1.1rem;
+  margin-top: 1rem;
+}
+
+#navbar {
+  margin-left: 0.4rem;
+  margin-right: 0.4rem;
+  background-color: black;
+}
+#navbar a {
+  color: whitesmoke;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  border-radius: 0%;
+}
+#navbar a:hover {
+  background-color: azure;
+  color: black;
+  border: black 1px solid;
+  -webkit-transition: background 0.4s 0.1s ease;
+  -moz-transition: background 0.4s 0.1s ease;
+  -o-transition: background 0.4s 0.1s ease;
+  transition: background 0.4s 0.1s ease;
+}
+#navbar a:active {
+  background-color: azure;
+  color: black;
+  border: black 1px solid;
+}
+#navbar li {
+  font-size: 1.2rem;
+}
+
+#carouselsection {
+  margin-top: 0.5rem;
+  background-color: whitesmoke;
+  padding: 0.7rem;
+}
+#carouselsection #carouselExampleControls {
+  height: 80vh;
+}
+#carouselsection #carouselExampleControls .carousel-item {
+  height: 80vh;
+}
+#carouselsection #carouselExampleControls #un {
+  background-image: url(../../../images:maquette/PSG_home1-1920x1080.jpeg);
+  background-size: cover;
+}
+#carouselsection #carouselExampleControls #deux {
+  background-image: url(../../../images:maquette/maillot-basket-nike-air-jordan-paris-saint-germain.jpeg);
+  background-size: cover;
+}
+#carouselsection #carouselExampleControls #trois {
+  background-image: url(../../../images:maquette/paris_saint_germain_wallpaper_v2_by_laughyz_dci7qlp-fullview.jpeg);
+  background-size: cover;
+}
+#carouselsection #carouselExampleControls .elementCarousel {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-content: center;
+  color: whitesmoke;
+  margin-left: 12rem;
+  margin-right: 15rem;
+  margin-top: 11rem;
+  margin-bottom: 11rem;
+  padding: 3rem;
+}
+#carouselsection #carouselExampleControls .elementCarousel h1 {
+  font-size: 2.3rem;
+  text-shadow: 1px 1px 2px black, 0 0 1rem black, 0 0 0.2rem black;
+  padding-bottom: 0.4rem;
+}
+#carouselsection #carouselExampleControls .elementCarousel p {
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 2px black, 0 0 1rem black, 0 0 0.2rem black;
+  padding-bottom: 0.4rem;
+}
+#carouselsection #carouselExampleControls .elementCarousel button {
+  width: 13%;
+}
+#carouselsection #carouselExampleControls .elementCarousel button:hover {
+  background-color: black;
+  color: white;
+  border: white 1px solid;
+  -webkit-transition: background 0.4s 0.1s ease;
+  -moz-transition: background 0.4s 0.1s ease;
+  -o-transition: background 0.4s 0.1s ease;
+  transition: background 0.4s 0.1s ease;
+}
+
+#vitrineProduit {
+  background-color: whitesmoke;
+  margin-top: 0.5rem;
+  padding: 0.7rem;
+}
+#vitrineProduit #groupproduit {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#vitrineProduit #groupproduit .blockproduit {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 25%;
+  padding-top: 1.2rem;
+  padding-bottom: 0.8rem;
+}
+#vitrineProduit #groupproduit .blockproduit img {
+  width: 90%;
+  align-self: center;
+  border: 0.2rem black solid;
+}
+#vitrineProduit #groupproduit .blockproduit .nameArticle {
+  align-self: center;
+  padding-top: 1rem;
+  padding-left: 0.9rem;
+  padding-right: 1rem;
+  font-size: 1.4rem;
+}
+#vitrineProduit #groupproduit .blockproduit .endbp {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 1rem;
+  margin-right: 1.4rem;
+}
+#vitrineProduit #groupproduit .blockproduit .endbp .priceArticle {
+  font-size: 1.4rem;
+  width: 50%;
+}
+#vitrineProduit #groupproduit .blockproduit .endbp #btnpanier {
+  width: 50%;
+  font-size: 1rem;
+  padding: 0%;
+}
+
+#infoProcedure {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 0.7rem;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#infoProcedure .uneProcedure {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 25%;
+  justify-content: center;
+}
+#infoProcedure .uneProcedure i {
+  font-size: 1.8rem;
+}
+#infoProcedure .uneProcedure .textProcedure {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-left: 1.7rem;
+}
+#infoProcedure .uneProcedure .textProcedure .titleProcedure {
+  font-size: 1.1rem;
+}
+#infoProcedure .uneProcedure .textProcedure .paraProcedure {
+  font-size: 0.8rem;
+}
+
+#footerPage {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 2rem;
+  padding-bottom: 1.3rem;
+  padding-left: 1.5rem;
+}
+#footerPage .titleFooter {
+  font-size: 1.5rem;
+  padding-bottom: 0.7rem;
+  color: whitesmoke;
+}
+#footerPage li {
+  font-size: 1rem;
+  color: white;
+}
+#footerPage a {
+  text-decoration: none;
+  color: white;
+}
+#footerPage .groupFooter {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#footerPage .groupFooter p {
+  font-size: 1rem;
+  padding-left: 1rem;
+  color: white;
+}
+#footerPage .groupFooter i {
+  font-size: 1.3rem;
+  padding-top: 0.2rem;
+  color: white;
+}
+#footerPage #groupFooterDeux h2 {
+  font-size: 1.2rem;
+  color: white;
+}
+#footerPage #groupFooterDeux p {
+  font-size: 1rem;
+  color: white;
+}
+#footerPage #newsletterFooter p {
+  font-size: 1rem;
+  color: white;
+}
+#footerPage #newsletterFooter #formFooter {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#footerPage #newsletterFooter #formFooter input {
+  width: 70%;
+  border-radius: 0%;
+}
+#footerPage #newsletterFooter #formFooter button {
+  width: 25%;
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 0%;
+}
+
+#commandePanier {
+  margin: 1.5rem;
+  background-color: whitesmoke;
+  padding: 0.5rem;
+}
+#commandePanier .demTable {
+  width: 100%;
+  border: 1px solid #b3adad;
+  border-collapse: collapse;
+  padding: 12px;
+}
+#commandePanier .demTable img {
+  width: 10rem;
+}
+#commandePanier .demTable .name {
+  font-size: 1.2rem;
+}
+#commandePanier .demTable #myForm {
+  display: flex;
+  flex-direction: column;
+}
+#commandePanier .demTable #myForm input {
+  width: 100%;
+}
+#commandePanier .demTable #myForm #erreur {
+  font-size: 1rem;
+}
+#commandePanier .demTable .quantity {
+  font-size: 1.2rem;
+}
+#commandePanier .demTable .priceTab {
+  font-size: 1.2rem;
+}
+#commandePanier .demTable td i {
+  font-size: 1rem;
+}
+#commandePanier .demTable th {
+  padding: 12px;
+  background: #000000;
+  color: whitesmoke;
+  text-align: center;
+}
+#commandePanier .demTable td {
+  border: 1px solid #b3adad;
+  text-align: center;
+  padding: 12px;
+  background: #ffffff;
+  color: #313030;
+}
+#commandePanier #couponAndCheckout {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+#commandePanier #couponAndCheckout #Coupon {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-top: 2rem;
+  width: 35%;
+  margin-left: 1rem;
+}
+#commandePanier #couponAndCheckout #Coupon #couponForm {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+#commandePanier #couponAndCheckout #Coupon #couponForm #couponInput {
+  width: 60%;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  border: 0px;
+  border-radius: 0%;
+}
+#commandePanier #couponAndCheckout #Coupon #couponForm #btn-input {
+  width: 20%;
+  margin-left: 0.6rem;
+  border-radius: 0%;
+}
+#commandePanier #couponAndCheckout #Coupon #Shipping {
+  border-radius: 0%;
+  padding-top: 0.8rem;
+  font-size: 1rem;
+}
+#commandePanier #couponAndCheckout #Payment {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-top: 2rem;
+  margin-right: 1rem;
+  width: 20%;
+  font-size: 1.3rem;
+}
+#commandePanier #couponAndCheckout #Payment .demPayment {
+  width: 100%;
+}
+#commandePanier #couponAndCheckout #Payment .demPayment .leftTd, #commandePanier #couponAndCheckout #Payment .demPayment .rightTd {
+  padding-bottom: 0.6rem;
+}
+#commandePanier #couponAndCheckout #Payment .demPayment .rightTd {
+  text-align: right;
+}
+#commandePanier #couponAndCheckout #Payment .demPayment .separated {
+  border-top: 1px solid rgba(0, 0, 0, 0.4);
+  padding-bottom: 1rem;
+}
+#commandePanier #couponAndCheckout #Payment #btn-checkout {
+  border-radius: 0%;
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
+}

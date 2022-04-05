@@ -1,0 +1,89 @@
+#footerPage {
+
+    background-color: black;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 2rem;
+    padding-bottom: 1.3rem;
+    padding-left: 1.5rem;
+
+    .titleFooter {
+
+        font-size: 1.5rem;
+        padding-bottom: 0.7rem;
+        color: whitesmoke;
+    }
+
+    li {
+
+        font-size: 1rem;
+        color: white;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .groupFooter {
+
+        display: flex;
+        flex-direction:row ;
+        flex-wrap: wrap;
+
+        p {
+            font-size: 1rem;
+            padding-left: 1rem;
+            color: white;
+        }
+
+        i {
+            font-size: 1.3rem;
+            padding-top: 0.2rem;
+            color: white;
+        }
+    }
+
+    #groupFooterDeux {
+
+        h2 {
+            font-size: 1.2rem;
+            color: white;
+        }
+
+        p {
+            font-size: 1rem;
+            color: white;
+        }
+    }
+
+    #newsletterFooter {
+
+        p {
+            font-size: 1rem;
+            color: white;
+        }
+    
+    #formFooter {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        input {
+            width: 70%;
+            border-radius: 0%;
+        }
+
+        button {
+            width: 25%;
+            background-color: whitesmoke;
+            color: black;
+            border-radius: 0%;
+        }
+    }
+    }
+}

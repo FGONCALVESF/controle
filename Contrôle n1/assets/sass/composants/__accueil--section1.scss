@@ -1,0 +1,75 @@
+#carouselsection {
+
+    margin-top: 0.5rem;
+    background-color: whitesmoke;
+    padding: 0.7rem;
+
+    #carouselExampleControls {
+
+        height: 80vh;
+
+        .carousel-item {
+
+            height: 80vh;
+
+        }
+
+        #un {
+            background-image: url(../../../images:maquette/PSG_home1-1920x1080.jpeg);
+            background-size: cover;
+        }
+        #deux {
+            background-image: url(../../../images:maquette/maillot-basket-nike-air-jordan-paris-saint-germain.jpeg);
+            background-size: cover;
+        }
+        #trois {
+            background-image: url(../../../images:maquette/paris_saint_germain_wallpaper_v2_by_laughyz_dci7qlp-fullview.jpeg);
+            background-size: cover;
+        }
+
+        .elementCarousel {
+
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            align-content: center;
+            color: whitesmoke;
+
+            margin-left: 12rem;
+            margin-right: 15rem;
+            margin-top: 11rem;
+            margin-bottom: 11rem;
+            padding: 3rem;
+
+            h1 {
+                
+                font-size: 2.3rem;
+                text-shadow: 1px 1px 2px black, 0 0 1rem black, 0 0 0.2rem black;
+                padding-bottom: 0.4rem;
+            }
+
+            p {
+                font-size: 1.2rem;
+                text-shadow: 1px 1px 2px black, 0 0 1rem black, 0 0 0.2rem black;
+                padding-bottom: 0.4rem;
+            }
+
+            button {
+                width: 13%;
+            }
+            
+            button:hover {
+                background-color: black;
+                color: white;
+                border: white 1px solid;
+                -webkit-transition: background 0.4s 0.1s ease;
+                -moz-transition: background 0.4s 0.1s ease;
+                -o-transition: background 0.4s 0.1s ease;
+                transition: background 0.4s 0.1s ease;
+            }
+
+        }
+
+    }
+
+}
